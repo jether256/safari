@@ -51,13 +51,19 @@ include("includes/header.php");
 
 <div class="right_column column">
 	
-	Right Column
+	Right Column<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
 
 </div>
 
 <div class="main_column column">
 
-	Mutale Jether
+<form class="post_form" action="index.php" method="POST">
+	<textarea name="post_text" id="post_text" placeholder="Got Something to Say"></textarea>
+	<input type="submit" name="post" id="post_btn" value="post">
+	<hr>
+	
+</form>
 	
 </div>
 
