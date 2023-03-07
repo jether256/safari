@@ -1,0 +1,251 @@
+
+@font-face {
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+
+body{
+
+	line-height: 17px;
+	background-color: #d0dce2;
+}
+
+
+.top_bar{
+	width: 100%;
+	height: 70px;
+	min-width:800px;
+	background-color:#5c7988;
+	border-bottom: 0.25rem solid #3e515b;
+	margin: 0 0 10px 0;
+	display: inline-flex;
+	position: fixed;
+	z-index: 10;
+}
+
+
+.logo a{
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	margin-left: 10px;
+	font-size: 30px;
+	position: relative;
+	top: 23px;
+	text-shadow: #2d3b43 0.5px 0.5px 0px;
+	color: #97adba;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#d0dce2;
+}
+
+nav{
+	/*top: 20px;*/
+	float: right;
+	position: absolute;
+	margin: 20px;
+	right: 1px;
+}
+nav a{
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+nav a img:hover{
+	/*border-bottom: 7px solid #4d6471;*/
+	background-color: #4d6471;
+	border-radius: 5px;
+	padding: 3px;
+
+}
+
+nav a img{
+	
+	/*/margin-right: 10px;*/
+	width: 35px;
+	margin-right: 40px;
+	height: 35px;
+	padding: 3px;
+}
+
+
+
+
+
+/*mobile phones*/
+@media screen and (max-width: 480px) {
+
+
+
+@font-face {
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+
+body{
+
+	line-height: 17px;
+	background-color: #d0dce2;
+}
+
+
+.top_bar{
+	width: 100%;
+	height: 70px;
+	max-width: 480px;
+	background-color:#5c7988;
+	border-bottom: 0.25rem solid #3e515b;
+	margin: 0 0 10px 0;
+	display: inline-flex;
+	position: fixed;
+	z-index: 10;
+}
+
+
+.logo a{
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	margin-left: 6px;
+	font-size: 14px;
+	position: relative;
+	top: 23px;
+	text-shadow: #2d3b43 0.5px 0.5px 0px;
+	color: #97adba;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#d0dce2;
+}
+
+nav{
+	/*top: 20px;*/
+	float: right;
+	position: absolute;
+	margin:14px;
+	right: 1px;
+}
+nav a{
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+nav a img:hover{
+	/*border-bottom: 7px solid #4d6471;*/
+	background-color: #4d6471;
+	border-radius: 5px;
+	padding: 3px;
+}
+
+nav a img{
+	
+	/*/margin-right: 10px;*/
+	width: 25px;
+	margin-right: 16px;
+	height: 25px;
+	padding: 3px;
+}
+
+
+
+
+}
+
+
+/*tablets*/
+@media screen and (max-width: 800px) {
+
+
+@font-face {
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+
+body{
+
+	line-height: 17px;
+	background-color: #d0dce2;
+}
+
+
+.top_bar{
+	width: 100%;
+	height: 70px;
+	max-width:800px;
+	background-color:#5c7988;
+	border-bottom: 0.25rem solid #3e515b;
+	margin: 0 0 10px 0;
+	display: inline-flex;
+	position: fixed;
+	z-index: 10;
+}
+
+
+.logo a{
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	margin-left: 10px;
+	font-size: 20px;
+	position: relative;
+	top: 23px;
+	text-shadow: #2d3b43 0.5px 0.5px 0px;
+	color: #97adba;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#d0dce2;
+}
+
+nav{
+	/*top: 20px;*/
+	float: right;
+	position: absolute;
+	display: inline-flex;
+	margin: 15px;
+	right: 1px;
+}
+nav a{
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+nav a img:hover{
+	/*border-bottom: 7px solid #4d6471;*/
+	background-color: #4d6471;
+	border-radius: 5px;
+	padding: 3px;
+}
+
+nav a img{
+	
+	/*/margin-right: 10px;*/
+	width: 25px;
+	margin-right: 25px;
+	height: 25px;
+	padding: 3px;
+}
+
+
+
+
+}

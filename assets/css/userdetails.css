@@ -1,0 +1,129 @@
+
+@font-face {
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+
+body{
+
+	line-height: 17px;
+
+}
+
+
+.grid{
+	margin:0;
+	top: 90px;
+	position: relative;
+	padding: 0 10px;
+	/*//max-width:100%;*/
+	
+}
+
+.column{
+	background-color:#b4c5ce;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #D3D3D3;
+	box-shadow: 2px 2px 2px #D3D3D3;
+	z-index: -1;
+
+
+}
+
+.user_details{
+	width:140px;
+	height:270px;
+	/*margin: auto;*/
+	float: left;
+	margin-bottom: 20px;
+}
+
+.user_details_left_right{
+	
+
+	width: 135px;
+	/*width: 20%;*/
+	display:inherit;
+	position: absolute;
+}
+
+.user_details img{
+	height: 135px;
+	width: auto;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+
+
+/*tablets*/
+@media screen and (max-width: 800px) {
+
+	.column{
+	background-color:#b4c5ce;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #D3D3D3;
+	box-shadow: 2px 2px 2px #D3D3D3;
+	z-index: -1;
+
+
+}
+
+.user_details{
+	
+	display: none;
+}
+
+.user_details_left_right{
+
+display: none;
+
+}
+
+.user_details img{
+	
+	display: none;
+}
+
+
+}
+
+/*mobile phones*/
+@media screen and (max-width: 480px) {
+
+	.column{
+	background-color:#b4c5ce;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #D3D3D3;
+	box-shadow: 2px 2px 2px #D3D3D3;
+	z-index: -1;
+
+
+}
+
+.user_details{
+	
+	display: none;
+}
+
+.user_details_left_right{
+
+display: none;
+
+}
+
+.user_details img{
+	
+	display: none;
+}
+
+
+}
