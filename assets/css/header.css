@@ -76,6 +76,29 @@ nav a img{
 }
 
 
+nav a .tooltip{
+  position: absolute;
+  top: 90px;
+  left: -45px;
+  background: #fff;
+  width: 115px;
+  padding: 10px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #044b85;
+  font-weight: bold;
+  display: none;
+}
+
+
+nav a:hover .tooltip{
+   display: block;
+}
+
+
+
 
 
 

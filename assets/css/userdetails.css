@@ -42,11 +42,7 @@ body{
 	/*margin: auto;*/
 	float: left;
 	margin-bottom: 20px;
-	overflow: scroll;
 
-	&::-webkit-scrollbar {
-    display: none;
-}
 }
 
 .user_details_left_right{
