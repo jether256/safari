@@ -2,7 +2,18 @@
 <?php
 
 include("includes/header.php");
+include("includes/classes/User.php");
+include("includes/classes/Post.php");
 
+
+
+if(isset($_POST['post'])){
+
+	$post= new Post($con,$userLoggedIn);
+
+	$post->submitPost($_POST['post_text'],'none');
+	header("Location:index.php");
+}
 
 ?>
 
@@ -60,14 +71,29 @@ include("includes/header.php");
 
 <form class="post_form" action="index.php" method="POST">
 	<textarea name="post_text" id="post_text" placeholder="Whats on your mind?"></textarea>
-	<input type="submit" name="post" id="post_btn" value="Live Video">
-	<input type="submit" name="post" id="post_btn" value="Image">
-	<input type="submit" name="post" id="post_btn" value="Post">
+
+	<button class="btn" name="post"><img src='assets/images/header/send.png'>Post</i></button>
+
+		<!-- 
+		<input type="submit" name="post" id="post_btn" value= "<img src='assets/images/header/project.png'>"> -->
+	<!-- <button class="btn"><img src='assets/images/header/video.png'>Video</i></button>
+	<button class="btn"><img src='assets/images/header/image.png'>Image</i></button>
+	<button class="btn"><img src='assets/images/header/placard.png'>Event</i></button>
+	<button class="btn"><img src='assets/images/header/send.png'>Post</i></button> -->
+	<!-- <input type="submit" name="post" id="post_btn" value="Image">
+	<input type="submit" name="post" id="post_btn" value="Event">
+	<input type="submit" name="post" id="post_btn" value="Post"> -->
 	<hr>
 	
 </form>
 
+<?php
+$user_obj= new User($con,$userLoggedIn);
 
+echo $user_obj->getFisrtLastName();
+
+
+?>
 	
 </div>
 

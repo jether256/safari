@@ -29,7 +29,7 @@ require 'includes/form_handlers/login_handler.php';
 		<div class="box">
 
 			<div class="login_header">
-				<h1>Brandon AI</h1>
+				<h1>Code Safari</h1>
 
 				Login and SignUp Below!
 			</div>

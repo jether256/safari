@@ -51,22 +51,29 @@ if(isset($_SESSION['username'])){
 
 			<a href="index.php">
 				<i><img src="assets/images/header/house.png"></i>
+				
 			</a>
 			<a href="#">
 				<i><img src="assets/images/header/project.png"></i>
+				  
+
 			</a>
 			<a href="#">
 				<i><img src="assets/images/header/meeting.png"></i>
+				 
 			</a>
 			<a href="#">
 				<i><img src="assets/images/header/messenger.png"></i>
+				 
 			</a>
 
 			<a href="#">
 			<i><img src="assets/images/header/webinar.png"></i>
+			  
 			</a>
 			<a href="#">
 			<i><img src="assets/images/header/job.png"></i>
+			  
 			</a>
 			<a href="includes/handlers/logout.php">
 				<i><img src="assets/images/header/businessman.png"></i>

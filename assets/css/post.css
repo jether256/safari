@@ -35,6 +35,21 @@ textarea:focus{
 }
 
 
+.post_form .btn{
+	 border-radius: 10px;
+	 box-shadow:  #2d3b43 0.5px 0.5px 0.5px;
+
+	color: #4d6471;
+}
+
+.post_form .btn img{
+
+	width:30px;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+}
+
 .post_form input[type='submit']{
 
 	width: 15%;
