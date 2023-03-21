@@ -18,7 +18,34 @@ if(isset($_POST['post'])){
 ?>
 
 
-<div class="user_details column">
+<main>
+	
+	<div class="container">
+
+	<div class="left">
+		
+		<div class="sidebar">
+			
+		</div>
+	</div>
+
+
+	<div class="main">
+		
+
+	</div>
+
+	<div class="right">
+		
+
+	</div>
+
+	
+</div>
+
+</main>
+
+<!-- <div class="user_details column">
 
 	<a href="<?php echo $userLoggedIn;?>">  <img src="<?php echo $user['pic'];?>">  </a>
 
@@ -83,7 +110,7 @@ if(isset($_POST['post'])){
 	<!-- <input type="submit" name="post" id="post_btn" value="Image">
 	<input type="submit" name="post" id="post_btn" value="Event">
 	<input type="submit" name="post" id="post_btn" value="Post"> -->
-	<hr>
+<!-- 	<hr>
 	
 </form>
 
@@ -93,11 +120,18 @@ $user_obj= new User($con,$userLoggedIn);
 echo $user_obj->getFisrtLastName();
 
 
-?>
-	
-</div>
+?> -->
 
-</div>
+
+
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/popper.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.mCustomScrollbar.js"></script>
+<script type="text/javascript" src="assets/lib/slick/slick.min.js"></script>
+<script type="text/javascript" src="assets/js/scrollbar.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
 
 </body>
 </html>

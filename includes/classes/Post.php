@@ -64,6 +64,33 @@ class Post{
 		
 
 	}
+
+
+	public function loadPostsFreinds(){
+
+		$str="";//String to return
+
+		$data=mysqli_query($this->con,"SELECT * FROM posts WHERE deletd='no' ORDER BY id DESC");
+
+
+		while ($row=mysqli_fetch_array($data)) {
+			$id=$row['id'];
+			$body=$row['body'];
+			$addedby=$row['added_by'];
+			$user_to=$row['user_to'];
+			$date_time=$row['date_added'];
+
+
+			//Prepare user-to string so it can be included even if not posted to the user
+			if($row['user_to']=='none'){
+				$user_to="";
+			}else{
+
+				
+			}
+			// code...
+		}
+	}
 }
 
 
