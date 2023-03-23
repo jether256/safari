@@ -19,12 +19,21 @@ class User {
 	}
 
 
-public function getNumPosts(){
+public function getNumJobs(){
 
 	$username=$this->user['username'];
-	$query=mysqli_query($this->con,"SELECT num_posts FROM user  WHERE  username='$username'");
+	$query=mysqli_query($this->con,"SELECT num_jobs FROM user  WHERE  username='$username'");
 	$row=mysqli_fetch_array($query);
-	return $row['num_posts'];
+	return $row['num_jobs'];
+}
+
+
+public function getNumProjects(){
+
+	$username=$this->user['username'];
+	$query=mysqli_query($this->con,"SELECT num_projects FROM user  WHERE  username='$username'");
+	$row=mysqli_fetch_array($query);
+	return $row['num_projects'];
 }
 
 	public function getFisrtLastName(){
@@ -34,6 +43,45 @@ public function getNumPosts(){
 
 		return $row['first_name']." ".$row['last_name'];
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 

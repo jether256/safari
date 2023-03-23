@@ -168,7 +168,7 @@ else if($rand=2)
 
 
 
-$query=mysqli_query($con,"INSERT INTO user VALUES('','$fname','$lname','$username','$em','$pass','$date','$profile_pic','0','0','no',',')");
+$query=mysqli_query($con,"INSERT INTO user VALUES('','$fname','$lname','$username','$em','$pass','$date','$profile_pic','0','0','0','Developer','no',',')");
 
 
 array_push($error_array,"<span style='color:#14C800;'>You are all set! go ahead ad Login!</span><br>");

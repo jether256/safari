@@ -284,7 +284,7 @@ header {
 	width: 18px;
 }
 
-.pd-left-none{
+/*.pd-left-none{
 position: sticky;
 }
 
@@ -297,7 +297,7 @@ position: sticky;
 
 	position: sticky;
 }
-.
+.*/
 
 
 .user-info img {
@@ -779,8 +779,8 @@ main {
 	float: left;
 	width: 100%;
 	margin-top: -20px;
-	z-index: -1;
-	position: sticky;/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*	z-index: -1;*/
+	position:sticky;/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 }
 .full-width {
 	float: left;
@@ -1495,7 +1495,7 @@ main {
 	background-color: #53d690;
 }
 .envlp {
-	background-color: #e44d3a;
+	background-color: #5c7988;
 }
 .envlp img {
 	float: none;
@@ -1514,7 +1514,7 @@ main {
 	font-weight: 600;
 }
 .user-profy > a:hover {
-	background-color: #e44d3a;
+	background-color: #5c7988;
 	color: #fff;
 }
 .slick-slide img {
@@ -1582,7 +1582,7 @@ main {
 }
 .slick-previous:hover:before,
 .slick-nexti:hover:before {
-	background-color: #e44d3a;
+	background-color: #5c7988;
 	color: #fff;
 	border-color: transparent;
 }
@@ -1963,7 +1963,7 @@ main {
 }
 .post-project-fields form ul li button:hover,
 .post-project-fields form ul li a:hover {
-	background-color: #e44d3a;
+	background-color: #5c7988;
 	color: #fff;
 } 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
