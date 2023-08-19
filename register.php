@@ -40,6 +40,13 @@ require 'includes/form_handlers/login_handler.php';
 				
 
 
+
+<hl>Register with brandon Ai</hl>
+
+
+
+
+
 						<form action="register.php" method="POST">
 						<input type="email" name="log_mail" placeholder="Email Address" value="<?php
 							if(isset($_SESSION['log_mail'])){
